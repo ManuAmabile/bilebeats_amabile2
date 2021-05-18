@@ -1,0 +1,96 @@
+/* variables scss */
+
+$small: 18px;
+$medium: 24px;
+$large: 48px;
+$aqua: aqua; 
+$violet: violet;
+$white: white;
+$black: black;
+
+.navbar__color-fondo{
+    background-color: aqua;
+    background-image: linear-gradient(to right, violet, aqua) ;
+}
+#navbarNav{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.carousel__padding{
+    padding-top: $large;
+    padding-bottom: $large;
+}
+.noticias__display {
+    padding-top: 50px;
+}
+.titulo__noticias{
+    color: $aqua;
+    font-size: $large;
+    text-align: center;
+}
+.subtitulo__noticias{
+    color: $white;
+    padding-top: $medium;
+    font-size: $medium;
+    text-align: center;
+}
+.historia__noticias{
+    color: $white;
+    padding-top: $medium;
+    font-size: $small;
+    text-align: center;
+}
+body {
+    background-color: $black;
+}
+.titulo__nosotros{
+    font-size: $large;
+    color: $violet;
+    text-align: center;
+}
+.historia__nosotros{
+    color: $white;
+    font-size: $small;
+    text-align: justify;
+}
+.tituloEstrenos{
+    color: violet;
+}
+.historiaEstrenos{
+    text-decoration: none;
+    color: white;
+    
+}
+.carousel-indicators{
+    max-height: 700px;
+}
+form{
+    margin: 18px 18px 18px;
+    color: white;
+}
+.img__nosotros{
+    max-width: 400px;
+    max-height: 400px;
+    align-content: center;
+}
+.footer__bg--color{
+    background-color: $white;
+}
+.footer__tamanio {
+    font-size: $small;
+    text-align: center;
+  }
+
+.footer__padding {
+    padding-top: $small;
+    padding-bottom: $small;
+}
+.info__contacto {
+    font-size: $medium;
+    color: $white;
+    text-align: center;
+    padding-top: $large;
+    padding-bottom: $large;
+}

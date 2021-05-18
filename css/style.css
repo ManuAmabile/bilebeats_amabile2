@@ -1,0 +1,84 @@
+/* variables scss */
+.navbar__color-fondo {
+  background-color: aqua;
+  background-image: linear-gradient(to right, violet, aqua); }
+
+#navbarNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+
+.carousel__padding {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
+.noticias__display {
+  padding-top: 50px; }
+
+.titulo__noticias {
+  color: aqua;
+  font-size: 48px;
+  text-align: center; }
+
+.subtitulo__noticias {
+  color: white;
+  padding-top: 24px;
+  font-size: 24px;
+  text-align: center; }
+
+.historia__noticias {
+  color: white;
+  padding-top: 24px;
+  font-size: 18px;
+  text-align: center; }
+
+body {
+  background-color: black; }
+
+.titulo__nosotros {
+  font-size: 48px;
+  color: violet;
+  text-align: center; }
+
+.historia__nosotros {
+  color: white;
+  font-size: 18px;
+  text-align: justify; }
+
+.tituloEstrenos {
+  color: violet; }
+
+.historiaEstrenos {
+  text-decoration: none;
+  color: white; }
+
+.carousel-indicators {
+  max-height: 700px; }
+
+form {
+  margin: 18px 18px 18px;
+  color: white; }
+
+.img__nosotros {
+  max-width: 400px;
+  max-height: 400px;
+  align-content: center; }
+
+.footer__bg--color {
+  background-color: white; }
+
+.footer__tamanio {
+  font-size: 18px;
+  text-align: center; }
+
+.footer__padding {
+  padding-top: 18px;
+  padding-bottom: 18px; }
+
+.info__contacto {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 48px; }
