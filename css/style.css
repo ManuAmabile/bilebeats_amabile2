@@ -1,13 +1,13 @@
 /* variables scss */
+.container-fluid {
+  padding: 0px; }
+
 .navbar__color-fondo {
   background-color: aqua;
   background-image: linear-gradient(to right, violet, aqua); }
 
-#navbarNav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end; }
+.navbar__font {
+  font-family: 'Poppins', sans-serif; }
 
 .carousel__padding {
   padding-top: 48px;
@@ -19,19 +19,22 @@
 .titulo__noticias {
   color: aqua;
   font-size: 48px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Poppins', sans-serif; }
 
 .subtitulo__noticias {
   color: white;
   padding-top: 24px;
   font-size: 24px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Poppins', sans-serif; }
 
 .historia__noticias {
   color: white;
   padding-top: 24px;
   font-size: 18px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Poppins', sans-serif; }
 
 body {
   background-color: black; }
@@ -39,19 +42,23 @@ body {
 .titulo__nosotros {
   font-size: 48px;
   color: violet;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Poppins', sans-serif; }
 
 .historia__nosotros {
   color: white;
   font-size: 18px;
-  text-align: justify; }
+  text-align: justify;
+  font-family: 'Poppins', sans-serif; }
 
 .tituloEstrenos {
-  color: violet; }
+  color: violet;
+  font-family: 'Poppins', sans-serif; }
 
 .historiaEstrenos {
   text-decoration: none;
-  color: white; }
+  color: white;
+  font-family: 'Poppins', sans-serif; }
 
 .carousel-indicators {
   max-height: 700px; }
@@ -77,8 +84,39 @@ form {
   padding-bottom: 18px; }
 
 .info__contacto {
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   color: white;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px; }
+
+.card {
+  background-color: black; }
+
+.cards__margin {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.card__bgcolor {
+  background-color: black; }
+
+.card__title_nuestro {
+  color: violet;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px; }
+
+.card__text_nuestro {
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; }
+
+.links__tracks {
+  text-align: center;
+  text-decoration: none; }
+
+.padding__noticias {
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 250px; }
